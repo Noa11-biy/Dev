@@ -1,0 +1,32 @@
+# Java
+*.class
+*.jar
+target/
+out/
+.idea/
+*.iml
+
+# C++
+*.obj
+*.exe
+*.o
+build/
+cmake-build-*/
+
+# Web / Node
+node_modules/
+dist/
+.env
+
+# Flutter / Dart
+.dart_tool/
+.packages
+*.g.dart
+
+# SQL
+*.bak
+
+# Divers
+.vscode/
+Thumbs.db
+.DS_Store
