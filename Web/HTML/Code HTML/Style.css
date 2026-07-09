@@ -1,0 +1,287 @@
+﻿* {
+    margin :0;
+    padding :0;
+}
+
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    color :#e7e7e7;
+}
+
+h2 {
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+    color :#e7e7e7;
+}
+
+h2 {
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    color :#e7e7e7;
+}
+
+p {
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    color :#e7e7e7;
+}
+
+body 
+{
+    text-align: center;
+    color : #e7e7e7;
+}
+
+
+header 
+{
+    color : #e7e7e7;
+    background-color : #000000;
+    position:relative;
+    height:500px;
+    background-image:url("img/header.jpg");
+    background-size:100%;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+header nav {
+    position :absolute;
+    top :0;
+    left:0;
+    width:100%;
+}
+
+    header nav ul {
+        display: flex;
+        justify-content: center;
+        margin :20px;
+    }
+
+    header nav li {
+        border-left: solid 1px #FFFFFF;
+        border-right:solid 1px #FFFFFF;
+        border-radius: 3px;
+        list-style: none;
+        margin: 2px;
+        padding :5px 20px 10px; 
+    }
+    header nav ul li a{
+        color :#FFFFFF;
+        font-size :  20px;
+    }
+    header .title  {
+        font-size:15px;
+        height:100%;
+        display:flex;
+        justify-content:center ;
+        align-items:center;
+    }
+
+main 
+{
+    background-color : #4e4e4e;
+    width : 80%;
+}
+
+main .blog div{
+    display :flex;
+}
+
+.content{
+    display:flex;
+}
+
+aside 
+{
+    padding-top: 10px;
+    background-color : #454545;
+    width : 20%;
+}
+
+footer {
+    background-color: #000000;
+    padding-top: 20px;
+}
+
+    footer .pied {
+        display: flex;
+    }
+
+.pied section
+{
+    width:33.33%;
+    text-align:center;
+    margin:15px
+}
+
+article {
+    border: solid 1px #8d8d8d;
+    border-radius: 20px;
+    background-color: #555555;
+    box-shadow: 3px 3px 3px #8d8d8d;
+    padding-bottom: 15px;
+    width: 33.33%;
+    text-align: center;
+    overflow: hidden;
+    margin: 15px;
+}
+article img 
+{
+    object-fit: cover;
+    width: 100%
+}
+
+article a
+{
+    border : solid 1px #FFFFFF;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color : #999999;
+    color :#FFFFFF;
+    padding :5px 15px;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 0.9em;
+}
+
+main .objectif::before
+{
+    content:"";
+    display:block;
+    width: 60%;
+    height: 1px;
+    background :#FFFFFF;
+    margin : 0px auto 40px;
+}
+
+main .objectif 
+{
+    padding-top:60px;
+    padding-bottom:60px;
+}
+ main .objectif::after {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 1px;
+    background: #FFFFFF;
+    margin: 40px auto 0px;
+}
+
+.dernier ul{
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    list-style : none;
+    padding :0;
+}
+
+.dernier li{
+    width :45%;
+    margin: 2%;
+    box-sizing : border-box;
+    padding : 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dernier img{
+    width :100%;
+    height: 100px;
+    object-fit : cover;
+    margin-bottom :10px;
+    border-radius: 5px;
+}
+
+.pages ul{
+    list-style:none;
+    padding :0;
+}
+
+.pages li a{
+    color: #afafaf;
+    text-decoration: none;
+    display: block;
+    padding:5px 0;
+    transition:0.3s;
+}
+
+.copyright{
+    background-color: #1a1a1a;
+    color : #8d8d8d;
+    text-align: center;
+    padding :20px 0;
+    margin-top :20px;
+    font-size:0.9em;
+    width :100% ;
+}
+
+
+.direct ul{
+    list-style : circle;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+
+.direct h3{
+    margin-bottom: 2px;
+}
+
+.direct li{
+    text-align: left;
+    margin :0px;
+    text-decoration: none;
+    padding-top :2px;
+    padding-bottom:2px;
+}
+
+.direct li a{
+    text-decoration: none;
+    color: #afafaf;
+}
+
+.populaire ul{
+    list-style-type: none;
+    padding:0;
+}
+
+.populaire img{
+    float: left;
+   border-radius: 5px;
+   box-shadow : 0 0 5px #FFFFFF;
+   width : 35%;
+   object-fit: cover;
+   margin-right: 10px;
+}
+
+.populaire li{
+    overflow:hidden;
+    margin-bottom:20px;
+    padding-bottom:5px;
+}
+
+.populaire h3{
+    font-size :25px;
+    margin :0;
+    text-align: left;
+}
+
+.populaire p{
+    font-size:20px;
+    text-align: left;
+    margin :2px 0;
+}
+
+.populaire a{
+    text-decoration: none;
+    float :right;
+    font-size: 19px;
+    color: #FFFFFF;
+    padding :2px 8px;
+    margin-top :5px;
+}
