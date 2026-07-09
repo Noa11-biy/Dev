@@ -1,0 +1,4 @@
+2026-04-23 10:01:13 | INFO | MainClass | main | Début du programme
+2026-04-23 10:01:13 | INFO | MesClasses.Personne | <init> | Personne crée : Pierre Kiroule
+2026-04-23 10:01:13 | INFO | MesClasses.Personne | <init> | Personne crée : Sarah Croche
+2026-04-23 10:01:13 | INFO | MainClass | main | Fin du programme

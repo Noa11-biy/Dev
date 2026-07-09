@@ -1,0 +1,12 @@
+2026-04-24 10:58:18 | INFO | GraphsPackage.Algorithms | loadGraph | Début loadGraph(files/G1-5-4.txt)
+2026-04-24 10:58:18 | INFO | GraphsPackage.Graph | <init> | Création du graphe "G1"
+2026-04-24 10:58:18 | INFO | GraphsPackage.Algorithms | loadGraph | Durée: 33 ms
+2026-04-24 10:58:18 | INFO | GraphsPackage.Algorithms | loadGraph | Fin loadGraph(files/G1-5-4.txt)
+2026-04-24 10:58:18 | INFO | GraphsPackage.Graph | <init> | Création du graphe "G1_duplication"
+2026-04-24 10:58:18 | INFO | GraphsPackage.Algorithms | duplicate | Début dupli(G1 --> G1_duplication, {1})
+2026-04-24 10:58:18 | INFO | GraphsPackage.Algorithms | duplicate | Durée: 0 ms
+2026-04-24 10:58:18 | INFO | GraphsPackage.Algorithms | duplicate | Fin dupli(G1 --> G1_duplication, {1})
+2026-04-24 10:58:18 | INFO | GraphsPackage.Algorithms | loadGraph | Début loadGraph(files/G1-5-4.txt)
+2026-04-24 10:58:18 | INFO | GraphsPackage.Graph | <init> | Création du graphe "G1"
+2026-04-24 10:58:18 | INFO | GraphsPackage.Algorithms | loadGraph | Durée: 0 ms
+2026-04-24 10:58:18 | INFO | GraphsPackage.Algorithms | loadGraph | Fin loadGraph(files/G1-5-4.txt)
